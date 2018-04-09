@@ -68,7 +68,7 @@ content h2{
     padding:200px 100px 0px 100px;
     margin-bottom:0px;
     color:white;
-    font-size:5vw;
+    font-size:calc(18px + 3vw);
     font-family: "BebasNeueBold", 'class = "subtitle"Arial Narrow', Arial, sans-serif;
     text-shadow:1px 1px rgba(88, 88, 88, 0.2);
 }
@@ -77,7 +77,7 @@ content h3{
     color:rgb(7, 155, 1);
     text-align:center;
     margin:0px;
-    font-size:3vw;
+    font-size:calc(10px + 2vw);
     font-family: "BebasNeueBold", 'Arial Narrow', Arial, sans-serif;
     text-shadow:1px 1px rgba(88, 88, 88, 0.2);
 }
