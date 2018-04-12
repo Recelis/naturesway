@@ -51,7 +51,17 @@ a:hover
     font-size:14px !important;
 }
 
-/* Content */
+.productImg{
+    width:500px;
+    height:500px;
+    background-size:cover;
+    overflow:hidden;
+    display:block;
+    margin:0 auto;
+    margin-top:50px;
+}
+
+/* Content */productImg
 
 content{
     width:100%;
@@ -142,6 +152,7 @@ content .nextPage{
     font-family:"BebasNeueBold", 'Arial Narrow', Arial, sans-serif;
     box-shadow:0px 1px 1px 0px black; 
     cursor: pointer;
+    margin-top:10px;
 }
 
 /* Pages */
