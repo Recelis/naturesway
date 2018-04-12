@@ -159,7 +159,7 @@ content .nextPage{
 
 
 content[id = "index"] .background{
-    background: linear-gradient( rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) ),url("../img/frontImage.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ),url("../img/frontImage1.jpg");
     background-size:cover;
     overflow:hidden;
 }
