@@ -34,7 +34,16 @@ a:hover
 #titleBar .options{
     display:flex;
     justify-content: space-evenly;
+    flex-wrap:wrap;
     width:80%;
+}
+
+#titleBar .option{
+    flex-shrink: 1;
+}
+
+#logoShort{
+    display:none;
 }
 
 #titleBar a{
@@ -47,9 +56,26 @@ a:hover
     font-family: "BebasNeueBold", 'Arial Narrow', Arial, sans-serif;
 }
 
-.logo{
-    font-size:14px !important;
+@media all and (max-width: 699px) {
+    #titleBar .options{
+        width: 100%;
+    }
+
+    #logoShort{
+        display:inline;
+    }
+
+    #logoLong{
+        display:none;
+    }
+
+    #titleBar .option{
+        padding:5px;
+    }
+
 }
+
+
 
 .productImg{
     /* width:500px; */
@@ -159,7 +185,7 @@ content .nextPage{
 
 
 content[id = "index"] .background{
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ),url("../img/frontImage1.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ),url("../img/frontImage.jpg");
     background-size:cover;
     overflow:hidden;
 }
