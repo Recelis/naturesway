@@ -42,10 +42,6 @@ a:hover
     flex-shrink: 1;
 }
 
-#logoShort{
-    display:none;
-}
-
 #titleBar a{
     color:black;
     text-decoration-line: none;
@@ -56,17 +52,9 @@ a:hover
     font-family: "BebasNeueBold", 'Arial Narrow', Arial, sans-serif;
 }
 
-@media all and (max-width: 699px) {
+@media all and (max-width: 800px) {
     #titleBar .options{
         width: 100%;
-    }
-
-    #logoShort{
-        display:inline;
-    }
-
-    #logoLong{
-        display:none;
     }
 
     #titleBar .option{
