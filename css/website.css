@@ -165,11 +165,11 @@ content .info{
 
 
 footer .endContent{
-    font-size:2vh;
+    font-size:1.5vh;
     width:100%;
     margin:0 auto;
     margin-top:50px;
-    padding:50px 0 30px 0;
+    padding:10px 0 10px 0;
     text-align:center;
     background-color: #e6e6e6;
     color:rgb(71, 71, 71);
