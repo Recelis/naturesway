@@ -61,9 +61,11 @@ a:hover
     font-family: "BebasNeueBold", 'Arial Narrow', Arial, sans-serif;
 }
 
-.productImg{
-    /* width:500px; */
-    height:500px;
+.sectionImg{
+    width:100%;
+    max-width:600px;
+    overflow: hidden;
+    /* height:500px; */
     background-size:cover;
     overflow:hidden;
     display:block;
