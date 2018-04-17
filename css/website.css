@@ -198,6 +198,10 @@ content .nextPage{
         text-align:center;
     }
 
+    content .list{
+        width:95%;
+    }
+
     content .section{
         width:100%;
         margin:0 auto;
