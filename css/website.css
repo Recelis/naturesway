@@ -35,6 +35,34 @@ a:hover
     font-size:3vh;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.pouOption{
+    width:100%;
+}
+
+.pouOption:hover{
+    background-color:rgb(7, 155, 1);
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width:160px;
+    padding:5px;
+    margin:0px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 #titleBar .clicked{
     color:white;
     background-color:rgb(7, 155, 1);
@@ -219,6 +247,15 @@ content .nextPage{
         margin:0 auto;
         margin-top:40px;
     }
+
+    .dropdown{
+        display:inline;
+    }
+
+    .coffeeImg .kitchenImg .villageImg{
+        width:100%;
+        margin:0 auto;
+    }
 }
 
 /* Pages */
@@ -277,6 +314,45 @@ content[id = "products"] .section{
     font-size:3vh;
     width:100%;
     text-align:center;
+}
+
+
+content[id = "specs"] .kitchenImg{
+    background-color: #cccccc;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) ),url("../img/kitchen.JPG");
+    background-size:cover;
+    width:50%;
+    height:50%;
+    margin:0 auto;
+}
+
+
+content[id = "specs"] .coffeeImg{
+    background-color: #cccccc;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) ),url("../img/coffee.jpg");
+    background-size:cover;
+    width:50%;
+    height:50%;
+    margin:0 auto;
+}
+
+
+content[id = "specs"] .villageImg{
+    background-color: #cccccc;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) ),url("../img/containerShip.jpg");
+    background-size:cover;
+    width:50%;
+    height:50%;
+    margin:0 auto;
+}
+
+content[id = "specs"] .section{
+    width:100%;
+    height:100%;
+}
+
+content[id = "specs"] .specTable{
+    margin:0 auto;
 }
 
 content[id = "health"] .background{
