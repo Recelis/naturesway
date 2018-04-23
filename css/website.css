@@ -91,9 +91,8 @@ a:hover
 
 .sectionImg{
     width:100%;
-    max-width:600px;
+    max-width:300px;
     overflow: hidden;
-    /* height:500px; */
     background-size:cover;
     overflow:hidden;
     display:block;
@@ -111,7 +110,7 @@ content{
 
 content .background{
     width:100%;
-    height:100%;
+    height:80%;
     background-color: #cccccc;
     display:grid;
     grid-template-columns: 1fr;
@@ -152,8 +151,8 @@ content p{
 content .section{
     width:90%;
     margin:0 auto;
-    margin-top:40px;
-    padding-top:100px;
+    padding-top:25px;
+    margin-top:25px;
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -301,9 +300,14 @@ content[id = "index"] .nextPage:hover{
     background-color:rgb(0, 82, 153);
 }
 
+content[id = "health"] .background{
+    background-color: #cccccc;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) ),url("../img/theoryWater.jpg");
+    background-size:cover;
+    overflow:hidden;
+}
+
 content[id = "products"] .background{
-    width:100%;
-    height:100%;
     background-color: #cccccc;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) ),url("../img/pouCover.jpg");
     background-size:cover;
@@ -355,18 +359,7 @@ content[id = "specs"] .specTable{
     margin:0 auto;
 }
 
-content[id = "health"] .background{
-    width:100%;
-    height:100%;
-    background-color: #cccccc;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) ),url("../img/theoryWater.jpg");
-    background-size:cover;
-    overflow:hidden;
-}
-
 content[id = "collaboration"] .background{
-    width:100%;
-    height:100%;
     background-color: #cccccc;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) ),url("../img/international.png");
     background-size:cover;
@@ -375,8 +368,6 @@ content[id = "collaboration"] .background{
 
 
 content[id = "team"] .background{
-    width:100%;
-    height:100%;
     background-color: #cccccc;
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ),url("../img/teamGeneric.jpg");
     background-size:cover;
@@ -384,8 +375,9 @@ content[id = "team"] .background{
 }
 
 content[id = "contact"] .section{
+    padding-top:200px;
     width:100%;
-    height:75%;
+    height:65%;
 }
 
 
