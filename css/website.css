@@ -250,6 +250,16 @@ content .nextPage{
     .dropdown{
         display:inline;
     }
+    .dropdown-content {
+        position:fixed;
+        left:0;
+        width:100%;
+    }
+
+    .pouOption{
+        padding:30px;
+        font-size:24px;
+    }
 
     .coffeeImg .kitchenImg .villageImg{
         width:100%;
