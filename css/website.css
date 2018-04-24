@@ -91,6 +91,17 @@ a:hover
 
 .sectionImg{
     width:100%;
+    max-width:600px;
+    overflow: hidden;
+    background-size:cover;
+    overflow:hidden;
+    display:block;
+    margin:0 auto;
+    margin-top:50px;
+}
+
+.teamPhotos{
+    width:100%;
     max-width:300px;
     overflow: hidden;
     background-size:cover;
