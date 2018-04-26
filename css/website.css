@@ -151,10 +151,9 @@ content p{
 }
 
 content .section{
-    width:90%;
-    margin:0 auto;
-    padding-top:25px;
-    margin-top:25px;
+    width:100%;
+    padding-top:50px;
+    margin-top:10px;
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -215,8 +214,7 @@ footer .endContent{
 content .nextPage{
     border: solid 0 transparent;
     border-radius:5px;
-    min-width:300px;
-    width:60%;
+    width:300px;
     height:100px;
     font-size:24px;
     font-family:"BebasNeueBold", 'Arial Narrow', Arial, sans-serif;
@@ -301,6 +299,10 @@ content[id = "index"] .section{
     color:white;
     text-align:center;
     height:100%;
+}
+
+content[id = "index"] .info{
+    color:white;
 }
 
 content[id = "index"] .nextPage{
