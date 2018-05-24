@@ -1,0 +1,52 @@
+.content{
+    margin:0 auto;
+    margin-top:100px;
+    width:60%;
+}
+
+#titleBar{
+    /* background-color:white; */
+    background-color:white !important;
+    color:black !important;
+}
+
+.title{
+    font-size:45px;
+}
+
+.subtitle{
+    font-size:30px;
+}
+
+.pouImg{
+    border:0px solid transparent;
+    border-radius:5px;
+    width:100%;
+}
+
+.specTable{
+    margin:0 auto;
+    margin-bottom:100px;
+    padding:25px;
+    border:1px solid grey;
+    border-radius:5px;
+    box-shadow: 1px 2px 2px 1px rgb(180, 180, 180);
+    text-align:center;
+}
+
+th{
+    text-align:left;
+    padding-right:10px;
+    margin: 0px;
+}
+td{
+    text-align:left;
+    padding-left:10px;
+    margin: 0px;
+}
+
+@media all and (max-width: 800px) {
+    .content{
+        width:90%;
+    }
+}
