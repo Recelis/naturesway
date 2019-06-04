@@ -10,8 +10,8 @@ const NWWTNavbar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link><Link to="/healthandnutrition/">Health and Nutrition</Link></Nav.Link>
           <Nav.Link><Link to="/">Home</Link></Nav.Link>
+          <Nav.Link><Link to="/healthandnutrition/">Health and Nutrition</Link></Nav.Link>
           <Nav.Link><Link to="/units/">Units</Link></Nav.Link>
           <Nav.Link><Link to="/collaboration/">Collaboration</Link></Nav.Link>
           <Nav.Link><Link to="/ourteam/">Our Team</Link></Nav.Link>
