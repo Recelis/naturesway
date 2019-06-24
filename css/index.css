@@ -25,20 +25,20 @@
 }
 
 .index_head3{
-    font-size:128px;
+    font-size:64px;
     margin:0px;
     padding-top:50px;
 }
 
 .index_health{
-    background-image:url("../img/waterfall.jpg");
+    background-image:url("../img/water-fall.jpg");
     background-size:cover;
     overflow:hidden;
     min-height:500px;
 }
 
 .index_description{
-    font-size:32px;
+    font-size:28px;
     background-color:rgba(0, 0, 0, 0.6);
     border-radius:5px;
     padding:20px;
