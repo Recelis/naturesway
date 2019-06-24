@@ -16,7 +16,7 @@
     width:100%;
     height:90%;
     margin:0px;
-    background-color:rgb(255, 230, 0);
+    background-color:#069ddc;
 }
 
 .content{
@@ -25,6 +25,9 @@
     height:90%;
 }
 
+.contactUs{
+    color:#013d7d;
+}
 .contactDetails{
     font-size:18px;
     width:400px;
