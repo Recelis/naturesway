@@ -2,81 +2,26 @@
 .headingBackground{
     width:100%;
     background-color:rgb(0, 119, 255);
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
 }
 
 .spacer{
-    padding:80px;
+    padding:40px;
     background-color:rgb(0, 119, 255);
 }
 
 .headings{
-    width:600px;
-    padding:50px;
-    order:0;
-}
-
-.flexFrontImg{
-    order:1;
-    flex: 'flex-shrink';
-}
-
-.frontImage{
-    width:100%;
-    max-width:500px;
-    padding:50px;
-}
-
-.bannerImg{
-    border:solid 5px transparent;
-    border-radius:10px;
-}
-
-.flexLitre{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    width:100%;
-    margin-top:100px !important;
-}
-
-.textFlex{
-    order:0;
-    flex-shrink:1;
-    width:50%;
-}
-
-.imgFlex{
-    order:1;
-    flex-shrink:1;
-    width:300px;
+    padding:10px;
 }
 
 .intro1{
     font-size:60px;
-    color:rgb(255, 230, 0);
+    color:white;
     margin:0 auto;
-    /* text-shadow:1px 1px grey; */
 }
 
 .intro2{
     font-size:60px;
-    color:rgb(9, 230, 1);
-    /* text-shadow:1px 1px grey; */
-}
-
-.intro3{
-    font-size:60px;
-    color:white;
-    /* text-shadow:1px 1px grey; */
-}
-
-img{
-    width:100%;
-    margin:auto 0;
-    padding:0px;
+    color:#013d7d;
 }
 
 #intro{
@@ -122,51 +67,19 @@ img{
 }
 
 .background .subtitle{
-    color:rgb(9, 230, 1);
+    color:#069ddc;
 }
 
 .flag{
     width:30px;
 }
 
-@media all and (max-width: 800px) {
-    .text{
-        width:95%;
-    }
-    .spacer{
-        padding:40px;
-    }
-    .headings{
-        width:600px;
-        padding:50px;
-        order:0;
-    }
+@media (max-width: 992px) { 
     .intro1{
         font-size:40px;
-        color:rgb(255, 230, 0);
-        margin: 0;
-    }
-    
-    .intro2{
-        font-size:40px;
-        color:rgb(115, 255, 0);
-    }
-    
-    .intro3{
-        font-size:40px;
-        color:white;
-    }
-    
-    .background{
-        padding:5px;
-        margin:0 auto;
-        width:95%;
-    } 
-    .frontImage{
-        padding:0px;
     }
 
-    .textFlex{
-        width:95%;
+    .intro2{
+        font-size:40px;
     }
 }
