@@ -27,7 +27,7 @@
 .index_head3{
     font-size:64px;
     margin:0px;
-    padding-top:50px;
+    padding:50px 10px 10px 10px;
 }
 
 .index_health{
@@ -45,7 +45,25 @@
     color:white;
 }
 
-.filters{
+.index_costheading{
+    font-size:28px;
+    /* margin:0 auto; */
+}   
+
+.index_costtext{
+    /* margin:0 auto; */
+}
+
+.index_dropimage{
+    border-radius:5px;
+    margin:10px;
+}
+
+.index-contact{
+    padding:10px;
+}
+
+/* .filters{
     background-color: #cccccc; 
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) ),url("../img/filters.jpg");
     background-size:cover;
@@ -65,7 +83,7 @@
 
 .flag{
     width:30px;
-}
+} */
 
 @media (max-width: 992px) { 
     .intro1{
